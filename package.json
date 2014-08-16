@@ -1,6 +1,6 @@
 {
   "name": "jugglingdb-redis",
-  "version": "0.0.2-2",
+  "version": "0.0.2-3",
   "description": "Redis adapter for jugglingdb",
   "main": "index.js",
   "author": "Anatoliy Chakkaev <mail@anatoliy.in>",
@@ -18,7 +18,8 @@
     "test": "make test"
   },
   "dependencies": {
-    "redis": "= 0.7.2"
+    "redis": "= 0.7.2",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "jugglingdb": "https://github.com/1602/jugglingdb/archive/master.tar.gz",
